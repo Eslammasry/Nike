@@ -1,0 +1,74 @@
+body {
+    font-family: "Oswald", sans-serif;
+    height: 5000px;
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    font-family: "Sansita Swashed", system-ui;
+}
+
+:root {
+    --main-color: #CB0216;
+    --first-color: #CB0216;
+    --second-color: #0E7AD7;
+    --third-color: #EC9720;
+}
+.mainBorder {
+    border: 1px solid var(--main-color);
+
+}
+.mainButton {
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    transition-duration: .5s;
+}
+
+.mainButton:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.mainColor {
+    color: var(--main-color);
+}
+
+
+.title{
+    position: relative;
+    margin-bottom: 30px;
+}
+.title h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.title img {
+        width: 200px;
+    /* top: 50%; */
+
+}
+
+
+.size .value li {
+    width: 25px;
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.size .value li.active {
+    background-color:var(--main-color);
+    color: #fff;
+}
+
